@@ -1,9 +1,9 @@
-package org.example.pubble_sort;
+package org.example.bubble_sort;
 
 /*
  * 冒泡排序*/
 public class sort {
-    void pubbleSort(int[] c) {
+    void bubbleSort(int[] c) {
 
         for (int j = c.length - 1; j > 0; j--) {//轮最大长度-1次，不算0，每伦比上一次-1
             boolean flag = false;//初始化flag
